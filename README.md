@@ -1,12 +1,12 @@
-# EMoE
-
+# Nakiri-Elec
+项目改自https://github.com/chai-mi/elec
 此项目本是自用，因此有大量硬编码参数，需要一定动手能力部署
 
 ## 部署
 
 #### 是徐汇 18 楼
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/chai-mi/elec)
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Polaris-Leo/nakiri-elec)
 
 部署时输入环境秘密 roomids，参考 `.env.example`
 
