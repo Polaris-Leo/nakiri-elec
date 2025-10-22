@@ -1,5 +1,4 @@
-name = "nakiri-elec"
-main = "workers/index.ts"
+name = "elec"
 compatibility_date = "2025-09-15"
 upload_source_maps = true
 workers_dev = false
@@ -8,12 +7,13 @@ workers_dev = false
 enabled = true
 
 [assets]
-directory = "dist"
+# 根据您的构建日志，静态资源位于 dist/client 目录中
+directory = "dist/client"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "elec"
-database_id = "2f539503-5e28-44bd-a4ca-29129746f9a0"
+database_id = "53d81a00-e326-4bac-8940-8b9020db85d9"
 
 [triggers]
 crons = ["0 * * * *"]
