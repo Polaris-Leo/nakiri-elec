@@ -1,4 +1,4 @@
-name = "elec"
+name = "nakiri-elec"
 compatibility_date = "2025-09-15"
 upload_source_maps = true
 workers_dev = false
