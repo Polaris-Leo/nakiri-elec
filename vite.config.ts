@@ -5,6 +5,10 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    cloudflare(),
+    cloudflare({
+      server: {
+        entry: "workers/index.ts" 
+      }
+    }),
   ],
 });
