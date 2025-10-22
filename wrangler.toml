@@ -11,8 +11,8 @@ directory = "dist/client"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "elec"
-database_id = "53d81a00-e326-4bac-8940-8b9020db85d9"
+database_name = "nakiri-elec"
+database_id = "8c120f99-a615-464e-a916-60bd9a89507c"
 
 [triggers]
 crons = ["0 * * * *"]
